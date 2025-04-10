@@ -28,7 +28,7 @@
       })
       unsubscribe()
 
-      await goto('/welcome')
+      await goto('/pokemon')
     } catch (err) {
       error = err.message || 'Error al iniciar sesión'
       console.error('Login error:', err)
